@@ -9,6 +9,13 @@ body {
     border-radius: 50%;
 }
 
+*{     
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
 
 .container {
     width: 900px;
@@ -19,6 +26,12 @@ body {
 h1 {
     color: rgb(24, 97, 180);
 }
+
+h2 {
+    font-family:  'Lora', serif;
+    color: rgb(24, 97, 180);
+}
+
 .card {
     background-color: white;
     padding: 100px;
@@ -29,22 +42,19 @@ h1 {
 }
 
 .list-inline {
-    list-style: none;
-    padding-left: 0px;
+    display: flex;
+    justify-content: center;
 }
 
 .list-inline i {
-    font-size: 30px
-}
-
-.list-inline li {
-    display: inline;
+    font-size: 30px;
+    color: rgb(233, 152, 86);
     padding: 10px;
-    size: 20%
 }
 
 .list-inline i:hover {
     color: grey;
+    font-size: 50px;
 }
 
 p {
@@ -52,20 +62,14 @@ p {
     font-family:  'Lora', serif;
 }
 
-a {
-    text-decoration-style: solid;
+.card a {
     font-family: 'Lora', serif;
     font-size: 16px
 }
 
 .follow-me-title {
     font-family:  'Lora', serif;
-    color: rgb(33, 156, 81);
-}
-
-h2 {
-    font-family:  'Lora', serif;
-    color: rgb(24, 97, 180);
+    color: rgb(53, 125, 184);
 }
 
 @media (max-width: 960px) {
